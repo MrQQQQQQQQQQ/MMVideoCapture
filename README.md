@@ -5,5 +5,5 @@
 <img width="375" height="667" src="https://github.com/MrQQQQQQQQQQ/MMVideoCapture/raw/master/MMVideoCaptureDemo/ScreenShots/IMG_2098.PNG"/>
 
 # Installation
-  pod "MMVideoCapture"
+    'pod "MMVideoCapture"'
 
