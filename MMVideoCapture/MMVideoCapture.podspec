@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
 
   s.source_files  = "MMVideoCapture/Sources/*"
 
-  spec.framework    = "UIKit","Foundation","Photos","AVFoundation","AVKit"
+  s.framework    = "UIKit","Foundation","Photos","AVFoundation","AVKit"
 
-  spec.resources = "MMVideoCapture/buildinIcons/*.png"
+  s.resources = "MMVideoCapture/buildinIcons/*.png"
 
-  spec.dependency "SnapKit", "~> 4.0.0"
+  s.dependency "SnapKit", "~> 4.0.0"
 
   s.requires_arc = true
 
