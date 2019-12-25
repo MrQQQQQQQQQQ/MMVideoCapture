@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.author             = { "minsir" => "minsir.iosdev@gmail.com" }
 
   s.platform     = :ios, "10.0"
+  s.swift_versions =  '4.2'
 
 
   s.source       = { :git => "https://github.com/MrQQQQQQQQQQ/MMVideoCapture.git", :tag => "0.0.1" }
