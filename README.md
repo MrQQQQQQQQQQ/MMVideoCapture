@@ -12,16 +12,15 @@
      self.present(vc, animated: true, completion: nil)
 ## 2nd.
     extension ViewController : MMCameraViewControllerDelegate{
-    func cameraViewController(_ cameraViewController: MMCameraViewController, didFinishPick image: UIImage, asset: PHAsset) {
+        func cameraViewController(_ cameraViewController: MMCameraViewController, didFinishPick image: UIImage, asset: PHAsset) {
         
-    }
+        }
     
-    func cameraViewController(_ cameraViewController: MMCameraViewController, didFinishPickVideo url: URL, asset: PHAsset, coverImage: UIImage?) {
+        func cameraViewController(_ cameraViewController: MMCameraViewController, didFinishPickVideo url: URL, asset: PHAsset, coverImage: UIImage?) {
         
-    }
+        }
     
-    func cameraViewControllerDidDismiss(_ cameraViewController: MMCameraViewController) {
+        func cameraViewControllerDidDismiss(_ cameraViewController: MMCameraViewController) {
         
-    }
-    
+        }
     }
